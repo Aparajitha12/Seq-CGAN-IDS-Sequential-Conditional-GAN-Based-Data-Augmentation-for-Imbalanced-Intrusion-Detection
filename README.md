@@ -16,8 +16,15 @@ This repository implements a Sequential Conditional Generative Adversarial Netwo
 * t-SNE-based validation of synthetic data fidelity
 
 ## Dataset
+This project uses the UNSW-NB15 dataset, which contains realistic network traffic with multiple attack categories and inherent class imbalance.
 
-The framework uses the UNSW-NB15 dataset, which contains realistic network traffic with multiple attack categories and inherent class imbalance.
+Official source:
+https://research.unsw.edu.au/projects/unsw-nb15-dataset
+
+For convenience, a preprocessed version is also available on Kaggle:
+https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15
+
+Download the dataset and place the CSV file in the project directory before running the notebook.
 
 Steps applied:
 
@@ -114,6 +121,6 @@ Results show that Seq-CGAN provides the most balanced improvement across precisi
 
 * notebook.ipynb: Complete pipeline implementation
 * README.md: Project documentation
-* 
+
 ## Notes
 * Only final models and configurations are retained for clarity
